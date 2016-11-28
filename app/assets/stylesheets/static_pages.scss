@@ -1,18 +1,6 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -87,11 +75,11 @@ html {
 
 body {
 	height: 100%;
-  background: -webkit-linear-gradient(90deg,  #00ff7f 10%, #40ED96 90%);
-  background:    -moz-linear-gradient(90deg,  #00ff7f 10%, #40ED96 90%);
-  background:     -ms-linear-gradient(90deg,  #00ff7f 10%, #40ED96 90%);
-  background:      -o-linear-gradient(90deg,  #00ff7f 10%, #40ED96 90%);
-  background:         linear-gradient(90deg,  #00ff7f 10%, #40ED96 90%);
+  background: -webkit-linear-gradient(90deg,  #55ACEE 10%, #85E0FF 90%);
+  background:    -moz-linear-gradient(90deg,  #55ACEE 10%, #85E0FF 90%);
+  background:     -ms-linear-gradient(90deg,  #55ACEE 10%, #85E0FF 90%);
+  background:      -o-linear-gradient(90deg,  #55ACEE 10%, #85E0FF 90%);
+  background:         linear-gradient(90deg,  #55ACEE 10%, #85E0FF 90%);
   font-family: 'Lato', sans-serif;
 }
 
