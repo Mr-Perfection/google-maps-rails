@@ -23,6 +23,23 @@ $ git commit -am "make it better"
 $ git push heroku master
 ```
 ## Versions
+
+### version 1.02 ()
+
+### version 1.01 (Geocoder)
+```
+* use geocoder gem and configure latitude and longitude.
+* genereate data model: Post
+* create a migration to add latitude and longitude.
+```
+$ rails generate model post address:string
+$ rails generate migration AddLatitudeAndLongitudeToPost latitude:float longitude:float
+$ rails db:migrate
+```
+* Geocode configuerations
+- Check commited changes for more details.
+
+
 ### version 1.00 (initial set-up)
 * generate the controller with home page.
 * CSS added to the view.
