@@ -7,7 +7,7 @@
 
 ## Getting Started
 * I will be using Geocoder gem to implement Google Maps API for this demo.
-DEMO website: [Weather Forcast](https://google-maps-geocoder.herokuapp.com) - click this link.
+DEMO website: [GOOLE MAPS GEOCODER](https://google-maps-geocoder.herokuapp.com) - click this link.
 
 ```
 - created the rails application using the following command:
