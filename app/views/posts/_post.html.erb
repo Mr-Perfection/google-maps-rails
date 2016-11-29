@@ -1,7 +1,9 @@
 <h2>Your current location is...</h2>
-<p><%= post.street_address%> <%= post.city%>, <%= post.state%> <%= post.zip%></p>
-<p><%= post.full_address %> <%= post.latitude %> <%= post.longitude%></p>
+
+<p>full address: <%= post.street_address%> <%= post.city%>, <%= post.state%> <%= post.zip%></p>
+<p>latitude: <%= post.latitude %> longitude: <%= post.longitude%></p>
 <%= image_tag "http://maps.googleapis.com/maps/api/staticmap?center=#{post.latitude},#{post.longitude}&markers=#{post.latitude},#{post.longitude}&zoom=15&size=450x300&key=AIzaSyDEMzkmtRhfLxbQLMsbgMVF3WfjcStbdtA",
-              class: 'img-fluid img-rounded', alt: "#{post.street_address} on the map"%><%= link_to "edit", edit_post_path(post)%>
-<%= link_to "delete", post, method: :delete,
-                                             data: { confirm: "Are you sure?" } %>
+              class: 'img-fluid img-rounded', alt: "#{post.street_address} on the map"%>
+<p><%= link_to "edit", edit_post_path(post)%></p>
+<p><%= link_to "delete", post, method: :delete,
+                                             data: { confirm: "Are you sure?" } %></p>
