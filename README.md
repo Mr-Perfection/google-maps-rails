@@ -25,7 +25,6 @@ $ git push heroku master
 ## Versions
 
 ### version 1.01 (Geocoder)
-```
 * use geocoder gem and configure latitude and longitude.
 * genereate data model: Post
 * create a migration to add latitude and longitude.
