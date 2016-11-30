@@ -6,7 +6,11 @@
   based on the geo-location.
 * DEMO website: [GOOLE MAPS GEOCODER](https://google-maps-geocoder.herokuapp.com) - click this link.
 
-* ![Alt text](/demo.png?raw=true "My demo")
+![Alt text](/demo.png?raw=true "from my personal project")
+
+![Alt text](/demo1.png?raw=true "from my personal project")
+
+![Alt text](/demo2.png?raw=true "from this project")
 
 ## Getting Started
 * I will be using Geocoder gem to implement Google Maps API for this demo.
