@@ -4,10 +4,12 @@
 * Implementation of Google Maps API in Rails.
 * with this configuration, you can browse through the locations with the search bar and generate the maps
   based on the geo-location.
+* DEMO website: [GOOLE MAPS GEOCODER](https://google-maps-geocoder.herokuapp.com) - click this link.
+
+* ![Alt text](/demo.png?raw=true "My demo")
 
 ## Getting Started
 * I will be using Geocoder gem to implement Google Maps API for this demo.
-DEMO website: [GOOLE MAPS GEOCODER](https://google-maps-geocoder.herokuapp.com) - click this link.
 
 ```
 - created the rails application using the following command:
